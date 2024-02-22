@@ -1,0 +1,28 @@
+html{
+	background-image: url(homee.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a{
+
+}
+ul{
+	list-style-type: none;
+}
+	
+#link{
+	
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+}
+
+h2{
+	font-family: Algerian;
+	font-size: 120px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+	text-shadow:0 0 15px rgb(12, 207, 35),0 0 20px forestgreen;
+	transform: skew(15deg);
+}

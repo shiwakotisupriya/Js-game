@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="one.css">
+</head>
+<body>
+    <section>
+        <h1>Tic Tac Toe</h1>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="game--restart">RESTART GAME</button>
+    </section>
+    
+    <div id="Music">
+
+        
+        <audio src="Happy_Face_Music_Cute_Little_Tikes.mp3" id="audio"></audio>
+        <button onClick="playaudio()"><img src="play-removebg-preview.png" height="40px" width="100px"></button>
+        <button onClick="pauseaudio()"><img src="pause-removebg-preview.png" height="40px" width="70px"></button>
+        <p id="audioStatus">Click The Play Button TO PLAY MUSIC</p>
+         <script>
+             function playaudio(){
+            document.getElementById("audio").play();
+            document.getElementById("audioStatus").innerHTML="Playing";	 
+            }
+             function pauseaudio(){
+            document.getElementById("audio").pause();
+            document.getElementById("audioStatus").innerHTML="Paused";	
+            }
+         </script>
+         </div>
+         <div id="mini">
+             <img src="mini.gif" height="500px" width="700px"> 
+         </div>
+        
+<script src="one.js"></script>
+</body>
+</html>

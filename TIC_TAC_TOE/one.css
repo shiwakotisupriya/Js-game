@@ -1,0 +1,85 @@
+html{
+    background-image:url(micky.gif) ;
+    background-repeat: no-repeat;
+    background-size: 40%; 
+    background-color: #4a5b9b;
+}
+body {
+    font-family: "Arial", sans-serif;
+}
+section {
+    text-align: center;
+}
+h1{
+    animation-name: hello;
+	animation-duration: 5s;
+	animation-iteration-count: 50000;
+    font-size: 70px;
+    font-family: Algerian;
+    text-shadow:0 0 15px green,0 0 20px forestgreen;
+}
+@keyframes hello {
+	0% {color: #100cf5; }
+	25% {color: #f507d5;  }
+	50% {color: #35e40e;  }
+	75% {color: #09f6c2; }
+	100% {color: #f00d0d;}
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 5px;
+    width: 306px;
+    margin: 50px auto;
+}
+.cell {
+    font-family: Algerian;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    background-color: #000000;
+    text-shadow:0 0 15px rgb(228, 9, 133),0 0 20px rgb(194, 240, 12);
+    box-shadow: 0 50px 60px 0 rgba(150, 147, 153, 0.993)
+    
+}
+.cell:hover{
+    background-color: #fcfcfc;
+    color: #000000;
+}
+button{
+    background-color:#7bf806 ;
+    border-radius: 30px;
+    border: none;
+    height: 60px;
+    width: 130px;
+    font-family: Algerian;
+    font-size: 20px;
+    color: #13141b;
+}
+button:hover{
+    background-color: #000000;
+    color: #fffcfc;
+}
+#Music{
+    width:25%;
+    background-color: #f507d5;
+    background-image:url(200w.gif) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+    border-radius: 20px;
+    border-style:dashed;
+    border:5px dashed;
+    margin-top: -100px;
+
+}
+#mini{
+   margin-left: 60%;
+   margin-top: -39%;
+    
+}
